@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: risk-guard
+  namespace: hft
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: risk-guard
+  template:
+    metadata:
+      labels:
+        app: risk-guard
+    spec:
+      containers:
+      - name: risk-guard
+        image: risk-guard:latest
+        ports:
+        - containerPort: 8000

@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "ingestor"
+    static_configs:
+      - targets: ["ingestor.hft.svc.cluster.local:2112"]

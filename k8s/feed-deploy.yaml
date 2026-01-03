@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feed
+  namespace: hft
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: feed
+  template:
+    metadata:
+      labels:
+        app: feed
+    spec:
+      containers:
+      - name: feed
+        image: feed:latest
