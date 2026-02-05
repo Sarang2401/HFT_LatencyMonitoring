@@ -107,9 +107,8 @@ Each issue was debugged and resolved, mirroring real production scenarios.
 ## 📈 Outcome
 
 The platform successfully:
-- Measures real application-level latency
-- Visualizes tail latency distributions
-- Triggers alerts on SLO violations
+- Measures simulated application-level latency
+- Visualizes tail latency distribution
 - Demonstrates production-style observability
 
 ---
