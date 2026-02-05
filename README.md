@@ -105,7 +105,7 @@ Each issue was debugged and resolved, mirroring real production scenarios.
 ---
 ## Output :
 
-![image] (https://github.com/Sarang2401/HFT_LatencyMonitoring/blob/81b9a05ff10aadc1b703f4a93eb19f304f0b4b45/Screenshot%20(468).png)
+![image alt](https://github.com/Sarang2401/HFT_LatencyMonitoring/blob/81b9a05ff10aadc1b703f4a93eb19f304f0b4b45/Screenshot%20(468).png)
 
 ## 📈 Outcome
 
